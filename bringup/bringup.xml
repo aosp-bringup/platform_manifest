@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+<remove-project name="platform/build" />
+<remove-project name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
+<remove-project name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+<remove-project name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
+<remove-project name="device/google/contexthub" groups="device" />
+<remove-project name="device/google/dragon" groups="device,dragon" />
+<remove-project name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
+<remove-project name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
+<remove-project name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+<remove-project name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+<remove-project name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+<remove-project name="device/intel/edison" groups="device" />
+<remove-project name="device/lge/bullhead" groups="device,bullhead" />
+<remove-project name="device/lge/bullhead-kernel" groups="device,bullhead" />
+<remove-project name="device/linaro/hikey" />
+<remove-project name="device/linaro/hikey-kernel" />
+<remove-project name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
+<remove-project name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+<remove-project name="platform/hardware/intel/audio_media" groups="intel" />
+<remove-project name="platform/hardware/intel/bootstub" groups="intel" />
+<remove-project name="platform/hardware/intel/common/bd_prov" groups="intel" />
+<remove-project name="platform/hardware/intel/common/libmix" groups="intel" />
+<remove-project name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+<remove-project name="platform/hardware/intel/common/libva" groups="intel" />
+<remove-project name="platform/hardware/intel/common/libwsbm" groups="intel" />
+<remove-project name="platform/hardware/intel/common/omx-components" groups="intel" />
+<remove-project name="platform/hardware/intel/common/utils" groups="intel" />
+<remove-project name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
+<remove-project name="platform/hardware/intel/img/hwcomposer" groups="intel" />
+<remove-project name="platform/hardware/intel/img/psb_headers" groups="intel" />
+<remove-project name="platform/hardware/intel/img/psb_video" groups="intel" />
+<remove-project name="platform/hardware/intel/sensors" groups="intel_sensors" />
+<remove-project name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+<remove-project name="platform/hardware/qcom/bootctrl" groups="pdk" />
+<remove-project name="platform/hardware/qcom/bt" groups="qcom" />
+<remove-project name="platform/hardware/qcom/camera" groups="qcom" />
+<remove-project name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+<remove-project name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
+<remove-project name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
+<remove-project name="platform/hardware/qcom/media" groups="qcom" />
+<remove-project name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+<remove-project name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
+<remove-project name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
+<remove-project name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
+<remove-project name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
+<remove-project name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
+<remove-project name="platform/hardware/qcom/power" groups="qcom" />
+<remove-project name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+<remove-project name="platform/hardware/ril" groups="pdk" />
+<remove-project name="platform/hardware/ti/omap3" groups="omap3" />
+<remove-project name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
+<remove-project name="platform/hardware/ti/omap4xxx" groups="omap4" />
+<remove-project name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" />
+<remove-project name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" />
+<remove-project name="platform/prebuilts/eclipse" groups="pdk" />
+<remove-project name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
+<remove-project name="platform/prebuilts/gdb/darwin-x86" groups="darwin" />
+<remove-project name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" />
+<remove-project name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,tradefed" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
+  
+<project path="build" name="aosp-bringup/build" groups="pdk,tradefed" remote="github" revision="n">
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+</manifest>
