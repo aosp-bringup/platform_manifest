@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+	<remote  name="github"
+           fetch="https://github.com"/>
+
 <remove-project name="platform/build" />
 <remove-project name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
 <remove-project name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
